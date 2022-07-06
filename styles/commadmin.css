@@ -1,0 +1,270 @@
+.react-select {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.react-select .react-select__control--is-focused.react-select__control--menu-is-open {
+  border-color: white !important;
+}
+.react-select .react-select__control--is-focused.react-select__control {
+  border-color: white !important;
+}
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  transform: translate(-12%, 0%);
+}
+.css-nu13me-Stack-root {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 13px;
+  padding-right: 5px;
+}
+.uploadBtn {
+  padding: 9px 10px;
+  border-radius: 5px;
+  word-break: inherit;
+  overflow-x: hidden;
+  padding: 9px 10px;
+  border-radius: 5px;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.custome-btn {
+  background-color: #1b5583;
+  padding: 9px 10px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+.custome-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.edit {
+  font-size: 19px;
+  color: #a14243;
+  cursor: pointer;
+  margin-left: -10px;
+}
+.delete {
+  font-size: 19px;
+  color: #d9534f;
+  cursor: pointer;
+}
+.btn-add {
+  background-color: #a14243;
+  color: white;
+  padding: 10px 20px;
+}
+
+.fa-icons{
+  cursor: pointer !important;
+}
+
+.btn-add-form {
+  background-color: #a14243;
+  color: white;
+  padding: 10px 20px;
+}
+
+.btn-add-form:hover {
+  border-color: #a14243;
+  background-color: white;
+  color: #a14243;
+  padding: 10px 20px;
+}
+
+.btn-add.recycle {
+  background-color: #262626;
+}
+.data-table-extensions > .data-table-extensions-filter > .filter-text::placeholder {
+  color: #1b5583 !important;
+}
+.rdt_TableCell {
+  flex-grow: 1;
+  display: flex;
+}
+.rdt_TableCell:nth-child(1) {
+  max-width: 20px !important;
+  width: 100% !important;
+  justify-content: center;
+}
+.rdt_TableCell div {
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+.rdt_TableCol {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  white-space: normal !important;
+}
+.rdt_TableCol:nth-child(1) {
+  max-width: 20px !important;
+  width: 100% !important;
+  justify-content: center;
+}
+.btn-edit {
+  background-color: #1b5583;
+  color: white;
+}
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+.data-table-extensions > .data-table-extensions-action > button.print {
+  background-position: center 4px !important;
+  position: relative !important;
+  right: 31px !important;
+}
+.data-table-extensions > .data-table-extensions-action > button.print::after {
+  content: "Print" !important;
+  position: absolute !important;
+  top: -24px !important;
+  background: #a14243 !important;
+  color: white !important;
+  padding: 0.25rem 0.5rem !important;
+}
+.data-table-extensions > .data-table-extensions-action > button.download {
+  position: relative !important;
+}
+.data-table-extensions > .data-table-extensions-action > button.download::after {
+  content: "Export" !important;
+  position: absolute !important;
+  top: -24px !important;
+  background: #a14243 !important;
+  color: white !important;
+  padding: 0.25rem 0.5rem !important;
+}
+
+.data-table-extensions > .data-table-extensions-filter > .icon {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 24px;
+  background-image: url("/img/search.png") !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.data-table-extensions > .data-table-extensions-action > button.download.drop::after {
+  content: "Export" !important;
+  position: absolute !important;
+  top: -24px !important;
+  background: #a14243 !important;
+  color: white !important;
+  padding: 0.25rem 0.5rem !important;
+}
+.data-table-extensions > .data-table-extensions-action > .dropdown {
+  position: absolute !important;
+  top: 120% !important;
+  right: -22px !important;
+  z-index: 1000 !important;
+  padding: 0 !important;
+  margin: 0.125rem 0 0 !important;
+  text-align: right !important;
+  list-style: none !important;
+  background-color: #a14243 !important;
+  background-clip: padding-box !important;
+  border: 1px solid #f5f5f5 !important;
+  border-radius: 0.25rem !important;
+  line-height: 16px !important;
+}
+.data-table-extensions > .data-table-extensions-action > .dropdown button {
+  display: block !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  font-size: 13px !important;
+  color: white !important;
+  padding: 4px 6px !important;
+  background-color: transparent !important;
+  border: none !important;
+  width: 100% !important;
+  cursor: pointer !important;
+  outline: none !important;
+  text-align: left !important;
+}
+.data-table-extensions > .data-table-extensions-filter {
+  float: left;
+  background-color: #fff !important;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 300px !important;
+  width: 100% !important;
+}
+.data-table-extensions {
+  padding: 10px 0px !important;
+}
+.data-table-extensions > .data-table-extensions-filter > .filter-text {
+  border: 0 !important;
+  outline: none !important;
+  margin-left: 4px !important;
+  background-color: transparent !important;
+}
+.ck-editor .ck-editor__editable {
+  min-height: 150px !important;
+}
+.data-table-extensions-action {
+  padding-right: 10px !important;
+}
+/* .paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #fe696a;
+  color: #fe696a;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #fe696a;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #fe696a;
+}
+
+.paginationDisabled a {
+  cursor: not-allowed;
+}
+.paginationDisabled a:hover {
+  color: #fe696a;
+  background: white;
+} */
+@media only screen and (max-width: 479px) {
+  .data-table-extensions > .data-table-extensions-filter {
+    float: none !important;
+ }
+  .data-table-extensions > .data-table-extensions-action {
+    padding: 10px 47px !important;
+    float: left !important;
+ }
+}
+@media only screen and (max-width: 768px) {
+  .profile88{
+    margin-top: 0;
+  }
+  .imgSet{
+    display: block !important;
+    font-size: 15px;
+    width: 100%;
+  }
+  .imgSetTop{
+    top: 32px !important;
+  }
+}

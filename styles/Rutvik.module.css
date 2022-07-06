@@ -1,0 +1,191 @@
+.res,
+.slider {
+    width: 100%;
+    height: 650px;
+}
+.dropshow{
+   /* width:40vw; */
+   overflow-x: auto;
+   cursor: pointer;
+}
+.dropshow::-webkit-scrollbar{
+    display: block;
+   background-color: rgba(0, 0, 0, 0.29);
+   width:10px;
+   height:8px;
+   
+ }
+ .dropshow::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 68, 0, 0.454);
+  }
+.divText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.paginationbtnli {
+    border: 1px solid orangered;
+    background-color: transparent;
+}
+
+.carets::before,
+.carets::after {
+    display: none;
+}
+
+.imgSize {
+    width: 200px;
+    height: 200px;
+}
+
+.logoSize {
+    width: 50px;
+    height: 50px;
+}
+
+.vImage{
+    justify-content: center !important;
+}
+
+.logoText {
+    font-size: 25px;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerbg {
+    background-image: url("../public/ABSTRACT_BACKGROUND_01-01.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgImg {
+    background-image: url(/img/bg-8.png);
+    /* url(/img/bg-6.jpg)*/
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 215px;
+}
+
+.divHover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.checkhover:hover .qty {
+    display: none !important;
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .pos {
+        top: 80px;
+    }
+
+    .res {
+        height: 50vh;
+    }
+
+    .slider {
+        height: 380px;
+    }
+
+    .divText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .res {
+        height: 50vh;
+    }
+
+    .slider {
+        height: 380px;
+    }
+
+    .pos {
+        top: 30px;
+        display: flex;
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2 {
+        font-size: 20px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 25px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .p {
+        font-size: 10px;
+        width: 80%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .divText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imgSize {
+        width: 100px;
+        height: 100px;
+    }
+
+    .containerbg {
+        background-image: url("../public/ABSTRACT_BACKGROUND_01-01.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bgImg {
+        background-image: url(/img/bg-5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .divHover:hover {
+        transform: scale(1);
+        cursor: pointer;
+    }
+
+    .logoSize {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logoText {
+        font-size: 15px;
+    }
+}
